@@ -1,20 +1,10 @@
 <!DOCTYPE html>
 <html lang="si">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FYH131D3HD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FYH131D3HD');
-</script>
-<link rel="icon" type="image/png" href="./favicon.png">
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Post Template Maker — Free Facebook News Post Generator</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
 <meta name="description" content="Free online tool to create Facebook news posts with headline templates, colour highlights, 3:4 and 1:1 sizes, and short videos. Runs in your browser — your images are never uploaded.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -153,58 +143,8 @@
   .meta-row{ display:flex; justify-content:space-between; align-items:center; margin-top:10px; font-size:12px; color:var(--ink-soft); }
   .status-line{ font-size:11.5px; color:var(--ink-soft); margin-top:8px; min-height:16px; }
 </style>
-  <script data-cfasync="false" src="https://abscloud.org/1/6d972321f85d2acc8f79929a0a55abfb"></script>
-  <script data-cfasync="false" src="https://abscloud.org/1/6d972321f85d2acc8f79929a0a55abfb"></script>
-  <script data-cfasync="false" src="https://abscloud.org/1/6d972321f85d2acc8f79929a0a55abfb"></script>
 </head>
 <body>
-  <script data-cfasync="false" src="https://bauval.org/14/83325ab6233f4c17bfbdb91541271022"></script>
-  <script>
-  atOptions = {
-    'key' : 'a000e6d50481797a629a91665004e073',
-    'format' : 'iframe',
-    'height' : 250,
-    'width' : 300,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/a000e6d50481797a629a91665004e073"></script>
-  <script data-cfasync="false" src="https://bauval.org/14/83325ab6233f4c17bfbdb91541271022"></script>
-  <script async="async" data-cfasync="false" src="https://bauval.org/21/823080185b1ab95128e775fb4391b75c"></script>
-<div id="container-823080185b1ab95128e775fb4391b75c"></div>
-  <script data-cfasync="false" src="https://bauval.org/14/83325ab6233f4c17bfbdb91541271022"></script>
-  <script>
-  atOptions = {
-    'key' : '5b2d5ef4e109e265b852b8f57970fd1c',
-    'format' : 'iframe',
-    'height' : 300,
-    'width' : 160,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/5b2d5ef4e109e265b852b8f57970fd1c"></script>
-  <script async="async" data-cfasync="false" src="https://bauval.org/21/823080185b1ab95128e775fb4391b75c"></script>
-<div id="container-823080185b1ab95128e775fb4391b75c"></div>
-  <script>
-  atOptions = {
-    'key' : '79d50a1c3784dbb10cd430eb0c7f3943',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/79d50a1c3784dbb10cd430eb0c7f3943"></script>
-  <script>
-  atOptions = {
-    'key' : 'f4b5997c18018c792defe4f840a6d359',
-    'format' : 'iframe',
-    'height' : 60,
-    'width' : 468,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/f4b5997c18018c792defe4f840a6d359"></script>
 <div class="wrap">
   <header>
     <h1>Post Template Maker</h1>
@@ -317,11 +257,6 @@
       <div class="field">
         <label>2. Headline එක (manual — ඕන වෙලාවක type/edit කරන්න පුළුවන්)</label>
         <textarea id="headlineInput" rows="3" placeholder="ඔබේ headline එක මෙතන type කරන්න...">Who Remembers The Morning Postman?</textarea>
-        <div class="two-col" style="margin-top:8px;">
-          <button type="button" class="secondary-btn" id="selectHighlightBtn" style="margin-top:0;">🖉 Select කරපු Text Highlight කරන්න</button>
-          <button type="button" class="secondary-btn" id="suggestHighlightBtn" style="margin-top:0;">✨ AI Highlight Suggest</button>
-        </div>
-        <div class="hint">Headline එකේ ඕන කොටසක් mouse එකෙන් select කරලා "Select කරපු Text Highlight කරන්න" click කරන්න — ඒ වචන දැනට තියෙන Paint color එකෙන් paint වෙනවා. ඕන නම් AI Suggest එකෙන් වචන කීපයක් auto pick කරගන්නත් පුළුවන්.</div>
       </div>
 
       <div class="field">
@@ -355,6 +290,24 @@
         <div class="preset-row" id="presetRow"></div>
         <div class="paint-chips" id="paintChips"></div>
         <button type="button" class="secondary-btn" id="clearPaintBtn">🖌️ Highlights ඔක්කොම clear කරන්න</button>
+      </div>
+
+      <div class="field">
+        <label>OUTLINE — වචන වටේ පොඩි line එක</label>
+        <div class="hint" style="margin:0 0 10px;">1️⃣ Style (OUTLINE / UNDERLINE) එකයි පාටයි තෝරන්න → 2️⃣ පහළ වචන click කරන්න. එක වචනයකට OUTLINE එකයි UNDERLINE එකයි දෙකම දාන්න පුළුවන් (style මාරු කරලා ආයෙත් click කරන්න). ආයෙත් click කළොත් අයින් වෙනවා.</div>
+        <div class="fit-toggle" id="lineStyleToggle">
+          <button type="button" class="active" data-linestyle="stroke">OUTLINE</button>
+          <button type="button" data-linestyle="underline">UNDERLINE</button>
+        </div>
+        <div class="color-row" style="justify-content:space-between;">
+          <span style="font-size:13px; color:var(--ink-soft);">✏️ Line color</span>
+          <input type="color" id="lineColorInput" value="#e63030">
+        </div>
+        <div class="slider-row">
+          <div class="slider-label"><span>Thin</span><span id="lineThickVal">3</span><span>Thick</span></div>
+          <input type="range" id="lineThickRange" min="1" max="10" value="3">
+        </div>
+        <div class="paint-chips" id="lineChips"></div>
       </div>
 
       <div class="field">
@@ -392,15 +345,12 @@
       </div>
 
       <div class="field">
-        <label class="confirm-row" for="copyrightCheck" style="display:flex;">
-          <input type="checkbox" id="copyrightCheck">
-          <span>මට මේ reference image එක Facebook එකට post කරන්න අයිතිය/license තියෙනවා කියලා confirm කරනවා.<br><b>සටහන:</b> මේක automatic copyright detection tool එකක් නෙවෙයි (browser එකේ ඉඳන් real copyright check එකක් කරන්න technically පුළුවන් කමක් නෑ) — ඔබම manual එකෙන් confirm කරන reminder එකක් විතරයි. Original/licensed නැති photo Facebook එකට දාන්න කලින් reverse-image-search (Google Images/TinEye) එකෙන් check කරලා බලන්න.</span>
-        </label>
+        <label class="confirm-row" for="copyrightCheck" style="display:flex;"><input type="checkbox" id="copyrightCheck" aria-label="Confirm" style="width:24px;height:24px;margin:0;cursor:pointer;"></label>
       </div>
 
       <div class="field">
         <label>5. Download</label>
-        <button class="download-btn" id="downloadBtn" disabled>Image එක upload කරන්න මුලින්ම</button>
+        <button class="download-btn" id="downloadBtn" disabled>⬇️ 1080p PNG Download</button>
         <button type="button" class="secondary-btn" id="resetBtn">🔄 Reset Post (අලුතින් පටන් ගන්න)</button>
       </div>
 
@@ -465,6 +415,10 @@ let state = {
   headline: document.getElementById('headlineInput').value,
   tag: '',
   wordColors: {},
+  wordLines: {},
+  lineColor: '#e63030',
+  lineStyle: 'stroke',
+  lineThick: 3,
   paintColor: '#ffcf3f',
   paintAuto: true,
   highlightColor: '#ffcf3f',
@@ -506,6 +460,7 @@ const paintChips = document.getElementById('paintChips');
 const paintColorInput = document.getElementById('paintColorInput');
 const clearPaintBtn = document.getElementById('clearPaintBtn');
 const presetRow = document.getElementById('presetRow');
+const lineChips = document.getElementById('lineChips');
 let lastChipHeadline = null;
 const PAINT_PRESETS = [['#16305c','#e63030'],['#111111','#ffcf3f'],['#16a34a','#e63030'],['#6d28d9','#f59e0b'],['#ffffff','#ffc72c']];
 const PAINT_AI = ['#e63030','#1877f2','#22c55e','#f97316','#a855f7'];
@@ -538,6 +493,21 @@ function renderPaintChips(){
     if(c){ b.style.background = c; b.style.borderColor = c; b.style.color = textOn(c); }
     b.addEventListener('click', ()=> toggleWordPaint(i));
     paintChips.appendChild(b);
+  });
+  Object.keys(state.wordLines).forEach(k=>{ if(Number(k) >= words.length) delete state.wordLines[k]; });
+  lineChips.innerHTML = '';
+  words.forEach((w, i)=>{
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'paint-chip';
+    b.textContent = w;
+    const ln = state.wordLines[i];
+    if(ln){
+      if(ln.stroke){ b.style.border = '3px solid ' + ln.stroke; }
+      if(ln.underline){ b.style.borderBottom = '6px solid ' + ln.underline; }
+    }
+    b.addEventListener('click', ()=> toggleWordLine(i));
+    lineChips.appendChild(b);
   });
 }
 
@@ -597,8 +567,6 @@ const captionOutput = document.getElementById('captionOutput');
 const imagePromptOutput = document.getElementById('imagePromptOutput');
 const genImagePromptBtn = document.getElementById('genImagePromptBtn');
 const aiStatus = document.getElementById('aiStatus');
-const selectHighlightBtn = document.getElementById('selectHighlightBtn');
-const suggestHighlightBtn = document.getElementById('suggestHighlightBtn');
 const headlineInputEl = document.getElementById('headlineInput');
 const videoBtn = document.getElementById('videoBtn');
 const voicePreviewBtn = document.getElementById('voicePreviewBtn');
@@ -745,7 +713,7 @@ function setRatio(ratio){
   else { W = 1080; H = 1440; canvasShell.style.setProperty('--ar','0.75'); }
   canvas.width = W; canvas.height = H;
   dimsText.textContent = `Preview — ${W} × ${H}px (${ratio})`;
-  downloadBtn.textContent = `PNG එක Download කරන්න (${W}×${H})`;
+  downloadBtn.textContent = '⬇️ 1080p PNG Download';
   draw();
 }
 
@@ -864,7 +832,7 @@ var drawPageBadge=function(x, y, name, avatarImg){
 
 function buildHighlightWords(text){
   const words = String(text||'').split(/\s+/).filter(Boolean);
-  return words.map((w,i)=>({ text:w, hl:!!state.wordColors[i], color:state.wordColors[i] || null }));
+  return words.map((w,i)=>({ text:w, hl:!!state.wordColors[i], color:state.wordColors[i] || null, line:state.wordLines[i] || null }));
 }
 
 function wrapWordObjs(wordObjs, maxWidth, font){
@@ -885,6 +853,7 @@ function wrapWordObjs(wordObjs, maxWidth, font){
 
 function drawWordLines(lines, font, x, y, lineHeight, align, baseColor, highlightColor){
   ctx.font = font;
+  const size = parseFloat((font.match(/(\d+(?:\.\d+)?)px/)||[])[1]) || 40;
   const spaceWidth = ctx.measureText(' ').width;
   lines.forEach((line, li)=>{
     const lineWidth = line.reduce((acc,w,i)=> acc + ctx.measureText(w.text).width + (i>0?spaceWidth:0), 0);
@@ -894,10 +863,26 @@ function drawWordLines(lines, font, x, y, lineHeight, align, baseColor, highligh
     else startX = x;
     let cx = startX;
     ctx.textAlign = 'left';
+    const wy = y + li*lineHeight;
     line.forEach(w=>{
+      const ww = ctx.measureText(w.text).width;
+      if(w.line && w.line.stroke){
+        ctx.save();
+        ctx.lineJoin = 'round';
+        ctx.lineWidth = Math.max(1, state.lineThick) * 2;
+        ctx.strokeStyle = w.line.stroke;
+        ctx.strokeText(w.text, cx, wy);
+        ctx.restore();
+      }
       ctx.fillStyle = w.hl ? (w.color || highlightColor) : baseColor;
-      ctx.fillText(w.text, cx, y + li*lineHeight);
-      cx += ctx.measureText(w.text).width + spaceWidth;
+      ctx.fillText(w.text, cx, wy);
+      if(w.line && w.line.underline){
+        ctx.save();
+        ctx.fillStyle = w.line.underline;
+        ctx.fillRect(cx, wy + size*0.13, ww, Math.max(2, state.lineThick*1.6));
+        ctx.restore();
+      }
+      cx += ww + spaceWidth;
     });
   });
 }
@@ -1148,7 +1133,7 @@ function drawTemplate3(){
   const textMaxW = W - 100;
   const font3 = fontStr(state.font, 800, 50);
   const wordObjs = buildHighlightWords(state.headline || ' ', state.highlight)
-    .map(w=>({text:w.text.toUpperCase(), hl:w.hl, color:w.color}));
+    .map(w=>Object.assign({}, w, {text:w.text.toUpperCase()}));
   const lines = wrapWordObjs(wordObjs, textMaxW, font3);
   withHeadlineAnim(()=> drawWordLines(lines, font3, 50, cardY+150, 60, 'left', state.headlineColor, state.highlightColor));
 }
@@ -1259,7 +1244,7 @@ function fitText(wordObjs, maxW, availH, fontKey, startSize, minSize, lineRatio)
 }
 
 function upperWords(){
-  return buildHighlightWords(state.headline || ' ', state.highlight).map(w=>({text:w.text.toUpperCase(), hl:w.hl, color:w.color}));
+  return buildHighlightWords(state.headline || ' ', state.highlight).map(w=>Object.assign({}, w, {text:w.text.toUpperCase()}));
 }
 
 function drawStripeBand(y, h){
@@ -1319,10 +1304,11 @@ function drawTemplate8(){
   drawStripeBand(imgH, bandH);
   drawStripeBand(H-bandH, bandH);
   const areaH = (H-imgH) - bandH*2;
-  const fit = fitText(upperWords(), W-110, areaH-40, state.font, 96, 44, 1.08);
+  const fit = fitText(upperWords(), W-150, areaH-70, state.font, 96, 44, 1.08);
+  const tcol = (textOn(state.headlineColor) === '#111111') ? '#16205a' : state.headlineColor;
   const totalH = fit.lines.length * fit.lineH;
   const startY = imgH + bandH + (areaH - totalH)/2 + fit.lineH*0.82;
-  withHeadlineAnim(()=> drawWordLines(fit.lines, fit.font, W/2, startY, fit.lineH, 'center', state.headlineColor, state.highlightColor));
+  withHeadlineAnim(()=> drawWordLines(fit.lines, fit.font, W/2, startY, fit.lineH, 'center', tcol, state.highlightColor));
 }
 
 // Template 9: Dark rounded card overlapping the photo
@@ -1755,7 +1741,6 @@ let downloadsCap = null, sampleCap = null;
   }
   if(!sampleCap){
     const aiSec = document.getElementById('aiSection'); if(aiSec) aiSec.style.display = 'none';
-    suggestHighlightBtn.style.display = 'none';
     genHeadlineBtn.title = 'AI feature not available in this view';
     genCaptionBtn.title = 'AI feature not available in this view';
   }
@@ -1772,53 +1757,6 @@ function aiErrorMessage(code){
     default: return 'AI request එක fail උනා — නැවත try කරන්න.';
   }
 }
-
-selectHighlightBtn.addEventListener('click', ()=>{
-  const start = headlineInputEl.selectionStart, end = headlineInputEl.selectionEnd;
-  if(start === end){
-    aiStatus.textContent = 'headline එකේ highlight කරන්න ඕන කොටස mouse එකෙන් select කරලා (drag) නැවත click කරන්න.';
-    return;
-  }
-  const val = headlineInputEl.value;
-  const re = /\S+/g;
-  let m, idx = 0, count = 0;
-  while((m = re.exec(val)) !== null){
-    if(m.index + m[0].length > start && m.index < end){ state.wordColors[idx] = state.paintColor; count++; }
-    idx++;
-  }
-  if(count){
-    renderPaintChips();
-    draw();
-    aiStatus.textContent = 'වචන ' + count + 'ක් paint කළා — ඕන නම් chips click කරලා වෙනස් කරගන්න පුළුවන්.';
-  }
-});
-
-suggestHighlightBtn.addEventListener('click', async ()=>{
-  const headline = state.headline.trim();
-  if(!headline){ aiStatus.textContent = 'මුලින්ම headline එකක් ලියන්න.'; return; }
-  if(!sampleCap){ aiStatus.textContent = 'මේ view එකේ AI feature එක available නෑ.'; return; }
-  suggestHighlightBtn.disabled = true;
-  aiStatus.textContent = 'Best highlight word එක හොයනවා...';
-  try{
-    const prompt = `Given this Facebook news headline: "${headline}"\nPick the 2 or 3 most attention-grabbing words or short phrases (1-4 words each, each must appear verbatim and exactly as written inside the headline above, no overlap between them) to highlight in different colors for maximum engagement/click-through.\n\nReply with only a JSON object: {"highlights": ["...", "..."]}`;
-    const result = await sampleCap.json(prompt, { modelTier:'quick', cache:false });
-    let list = Array.isArray(result && result.highlights) ? result.highlights : (result && result.highlight ? [result.highlight] : []);
-    list = list.map(x=>String(x||'').trim()).filter(Boolean).slice(0,3);
-    if(list.length){
-      state.wordColors = {};
-      list.forEach((t,i)=>{ paintPhrase(t, i===0 ? state.highlightColor : PAINT_AI[(i-1) % PAINT_AI.length]); });
-      renderPaintChips();
-      draw();
-      aiStatus.textContent = 'Highlights ' + list.length + ' ක් suggest කළා — ඕන නම් වෙනස් කරගන්න පුළුවන්.';
-    } else {
-      aiStatus.textContent = 'Suggestion එකක් ලැබුනේ නෑ — try again.';
-    }
-  } catch(err){
-    aiStatus.textContent = aiErrorMessage(err && err.code);
-  } finally {
-    suggestHighlightBtn.disabled = false;
-  }
-});
 
 genHeadlineBtn.addEventListener('click', async ()=>{
   const src = newsInput.value.trim();
@@ -1862,6 +1800,7 @@ genHeadlineBtn.addEventListener('click', async ()=>{
         chip.textContent = (h.isQ ? '❓ ' : '') + h.headline;
         chip.addEventListener('click', ()=>{
           document.getElementById('headlineInput').value = h.headline;
+          state.wordLines = {};
           state.headline = h.headline;
           draw();
         });
@@ -2182,6 +2121,7 @@ function resetAll(){
   state.headline = 'Who Remembers The Morning Postman?';
   state.tag = '';
   state.wordColors = {};
+  state.wordLines = {};
   state.paintAuto = true;
   state.btn1 = '❤️ YES';
   state.btn2 = '😆 NO';
@@ -2241,7 +2181,7 @@ function resetAll(){
   currentRatio = '3:4';
   setRatio('3:4');
 
-  downloadBtn.textContent = 'Image එක upload කරන්න මුලින්ම';
+  downloadBtn.textContent = '⬇️ 1080p PNG Download';
   downloadBtn.disabled = true;
   videoBtn.disabled = true;
   videoBtn.textContent = '🎬 Video Download (animated zoom + effects)';
@@ -2375,91 +2315,31 @@ function resetCountryUI(){
 }
 new MutationObserver(()=>{ aiStatus.style.color=aiStatus.textContent.startsWith('❌')?'#d62828':''; aiStatus.style.fontWeight=aiStatus.textContent.startsWith('❌')?'700':''; }).observe(aiStatus,{childList:true,characterData:true,subtree:true});
 
+// ---- Word line (outline / underline) controls ----
+const lineColorInput = document.getElementById('lineColorInput');
+const lineThickRange = document.getElementById('lineThickRange');
+const lineThickVal = document.getElementById('lineThickVal');
+lineColorInput.addEventListener('input', e=>{ state.lineColor = e.target.value; });
+lineThickRange.addEventListener('input', e=>{ state.lineThick = Number(e.target.value); lineThickVal.textContent = e.target.value; draw(); });
+document.querySelectorAll('#lineStyleToggle button').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('#lineStyleToggle button').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    state.lineStyle = btn.dataset.linestyle;
+  });
+});
+function toggleWordLine(i){
+  const key = state.lineStyle;
+  const entry = state.wordLines[i] || {};
+  if(entry[key] && String(entry[key]).toLowerCase() === state.lineColor.toLowerCase()) delete entry[key];
+  else entry[key] = state.lineColor;
+  if(entry.stroke || entry.underline) state.wordLines[i] = entry; else delete state.wordLines[i];
+  renderPaintChips();
+  draw();
+}
+
 document.fonts.ready.then(draw);
 draw();
 </script>
-  <script>
-  atOptions = {
-    'key' : '2d7b42ad6fa9c28d8890332fa5cfa8c5',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/2d7b42ad6fa9c28d8890332fa5cfa8c5"></script>
-  <script data-cfasync="false" src="https://bauval.org/14/83325ab6233f4c17bfbdb91541271022"></script>
-  <script>
-  atOptions = {
-    'key' : 'f2c6ca33109287cdf7a26ea04acaf17e',
-    'format' : 'iframe',
-    'height' : 600,
-    'width' : 160,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/f2c6ca33109287cdf7a26ea04acaf17e"></script>
-  <script>
-  atOptions = {
-    'key' : 'f4b5997c18018c792defe4f840a6d359',
-    'format' : 'iframe',
-    'height' : 60,
-    'width' : 468,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/f4b5997c18018c792defe4f840a6d359"></script>
-  <script>
-  atOptions = {
-    'key' : '2d7b42ad6fa9c28d8890332fa5cfa8c5',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/2d7b42ad6fa9c28d8890332fa5cfa8c5"></script>
-  <script>
-  atOptions = {
-    'key' : '79d50a1c3784dbb10cd430eb0c7f3943',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/79d50a1c3784dbb10cd430eb0c7f3943"></script>
-  <script data-cfasync="false" src="https://bauval.org/14/83325ab6233f4c17bfbdb91541271022"></script>
-  <script>
-  atOptions = {
-    'key' : '5b2d5ef4e109e265b852b8f57970fd1c',
-    'format' : 'iframe',
-    'height' : 300,
-    'width' : 160,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/5b2d5ef4e109e265b852b8f57970fd1c"></script>
-  <script>
-  atOptions = {
-    'key' : '2d7b42ad6fa9c28d8890332fa5cfa8c5',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/2d7b42ad6fa9c28d8890332fa5cfa8c5"></script>
-  <script>
-  atOptions = {
-    'key' : 'a000e6d50481797a629a91665004e073',
-    'format' : 'iframe',
-    'height' : 250,
-    'width' : 300,
-    'params' : {}
-  };
-</script>
-<script src="https://bauval.org/22/a000e6d50481797a629a91665004e073"></script>
 </body>
-  Insert it anywhere using the standard HTML tags for hyperlink.
 </html>
